@@ -4,7 +4,7 @@ Juego de impostor con temática navideña para jugar en grupo con **un solo disp
 
 ## Cómo se juega
 
-1. Escribe los nombres de los jugadores (de 3 a 12) y elige categorías, o activa **Mezcla de todas**.
+1. Escribe los nombres de los jugadores (de 3 a 15) y elige categorías, o activa **Mezcla de todas**.
 2. Elige cuántos impostores habrá (1 o 2).
 3. Pasen el celular: todos ven la misma palabra navideña, menos el impostor, que solo ve la categoría.
 4. Cada quien da una pista sin decir la palabra. Después discuten y votan.

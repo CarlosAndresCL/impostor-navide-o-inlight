@@ -72,7 +72,7 @@ function setup(){
   <button class="btn" id="go">Empezar partida</button>`;
   const n=document.getElementById('names');
   S.names.forEach((v,i)=>{const inp=document.createElement('input');inp.type='text';inp.maxLength=16;inp.placeholder='Jugador '+(i+1);inp.value=v;inp.setAttribute('aria-label','Nombre del jugador '+(i+1));inp.oninput=()=>S.names[i]=inp.value;n.appendChild(inp)});
-  document.getElementById('add').onclick=()=>{if(S.names.length<12){S.names.push('');setup()}};
+  document.getElementById('add').onclick=()=>{if(S.names.length<15){S.names.push('');setup()}};
   document.getElementById('rem').onclick=()=>{if(S.names.length>3){S.names.pop();setup()}};
   const c=document.getElementById('cats');
   const mb=document.createElement('button');mb.className='chip';mb.textContent='Mezcla de todas';mb.setAttribute('aria-pressed',S.mix);mb.onclick=()=>{S.mix=!S.mix;setup()};c.appendChild(mb);
