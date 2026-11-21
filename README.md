@@ -24,4 +24,4 @@ Abre `index.html`, busca `const BANCO` y agrega palabras a la lista de cualquier
 
 ## Jugar
 
-Abre el enlace de GitHub Pages desde el celular.
+Abre el juego desde el celular: https://carlosandrescl.github.io/impostor-navide-o-inlight/
